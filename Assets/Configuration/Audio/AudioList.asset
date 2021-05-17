@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad1dacf27a893043869cce4d850162f, type: 3}
+  m_Name: AudioList
+  m_EditorClassIdentifier: 
+  _mainThemes:
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 329d2522e6f278347b3a3a375614602c, type: 3}
+    mixerGroup: {fileID: 9051443568964322473, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: a595bed7bb8338d40b2db91b33a080a1, type: 3}
+    mixerGroup: {fileID: -4093671404358615367, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0
+  _audioEffects:
+  - name: Jump
+    clip: {fileID: 8300000, guid: 2efbca1543300564bbc4c3924d8429b0, type: 3}
+    mixerGroup: {fileID: 6327013388982399100, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0.3
+  - name: Point
+    clip: {fileID: 8300000, guid: db57f096f3680274cb61741d8d6220d0, type: 3}
+    mixerGroup: {fileID: -5398114725526621601, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0
+  - name: Shot
+    clip: {fileID: 8300000, guid: e4bd89059f6e1d44c84ae6dada8ad9a7, type: 3}
+    mixerGroup: {fileID: -5941930170623480718, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0
+  - name: Die
+    clip: {fileID: 8300000, guid: abe9ea49d5d03a04f8a9b8a817c9a5aa, type: 3}
+    mixerGroup: {fileID: -2975336196090396759, guid: af0d07bf5ef5ef44eafbb1b00522f35c,
+      type: 2}
+    randomPitch: 0
